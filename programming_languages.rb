@@ -6,7 +6,7 @@ def reformat_languages(languages)
   languages.each do |style, language|
 
     languages.each do |type, status|
-      new_langugages[type]||= status
+      new_langugages[type]= status
       new_langugages[type][:style] = []
       new_langugages[type][:style] << style
 end
