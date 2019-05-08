@@ -5,7 +5,7 @@ def reformat_languages(languages)
   languages.each do |style, language|
     binding.pry
     languages.each do |type, status|
-      new_langugages[name]||= attributes
+      new_langugages[name]||= status
       new_langugages[name][:style] = []
       new_langugages[name][:style] << style
 end
