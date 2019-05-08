@@ -6,3 +6,6 @@ def reformat_languages(languages)
       new_langugages[name][:style] = []
       new_langugages[name][:style] << style
 end
+end
+new_langugages
+end
